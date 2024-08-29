@@ -1,0 +1,19 @@
+---
+# This file contains required Ansible collections
+
+# yamllint disable-line rule:line-length
+# reference: https://docs.ansible.com/ansible/latest/collections_guide/collections_installing.html#install-multiple-collections-with-a-requirements-file
+
+collections:
+  - name: ansible.posix
+    type: galaxy
+    version: 1.5.4
+  - name: community.general
+    type: galaxy
+    version: 9.2.0
+  - name: dellemc.powermax
+    type: galaxy
+    version: 3.0.0
+  - name: netapp.ontap
+    type: galaxy
+    version: 22.11.0
